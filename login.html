@@ -1,0 +1,34 @@
+<html>
+<head>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   <div class="container my-5 text-center">
+    <div class="m-auto group w-75 p-5">
+        <h1>Smart Login System</h1>
+        <div class=" d-none  " id="validreg">
+            <p class="alert alert-danger">Please fill data as Required to signin</p>
+        </div>
+        <input id="signinEmail" class="form-control my-3" placeholder="Enter your email" type="text">
+        <div class=" d-none " id="validemail">
+            <p class="alert alert-danger">Invailed email</p>
+        </div>
+        <input id="signinPassword" class="form-control my-3" placeholder="Enter your password" type="password">
+        <div class=" d-none" id="validpass">
+            <p class="alert alert-danger">Invailed Password</p>
+        </div>
+        <button id="submit" class="btn btn-outline-info w-100 my-3">Login</button>
+        <p class="text-white">Don’t have an account? <a class="text-white" href="signup.html">Sign Up</a></p>
+
+    </div>
+   </div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/login.js"></script>
+
+</body>
+</html>
